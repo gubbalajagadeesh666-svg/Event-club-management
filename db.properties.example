@@ -1,0 +1,8 @@
+# Copy this file to src/main/resources/db.properties on your local machine
+# (db.properties is ignored by Git so your password stays private).
+# Alternatively, set environment variables:
+#   CAMPUSFLOW_DB_URL, CAMPUSFLOW_DB_USER, CAMPUSFLOW_DB_PASSWORD
+
+db.url=jdbc:mysql://localhost:3306/campusflow_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&characterEncoding=UTF-8
+db.user=root
+db.password=YOUR_LOCAL_MYSQL_PASSWORD_HERE
